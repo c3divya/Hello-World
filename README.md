@@ -33,3 +33,18 @@ parch: The dataset defines family relations in this way...
 Parent = mother, father
 Child = daughter, son, stepdaughter, stepson
 Some children travelled only with a nanny, therefore parch=0 for them.
+
+## Final Code: Copy_of_Final_Report.ipynb
+The code includes following parts:
+Data Exploration: info() , describe(), distplot(), isnull(),sum(), drop(),fillna()
+Encoding Categorial Variable: replace(),loc(),mean(),var()
+Testing Set: removing missing values, Dropping Columns with significant missing data, Encoding Categorial Variable.
+Functions Creation: 
+-feature_Selection(df,corr,var), 
+-calc_train_error(X_train_data, Y_train_data, model)
+-calc_validation_error(X_test_data, Y_test_data, model)
+-calc_metrics(X_train_data, Y_train_data,X_test_data,Y_test_data, model)
+Taking Logarithmic of the Data
+Algorithm Applied: Linear Regression, Feature Scalling (MinMaxScaler(), WithPCA, KNN Regression, KNN_withfeaturescaling, KNN_withPCA,RidgeRegression, RidgeRegression_featureScaling, RidgeRegression_WithPCA, LassorRegression(FeatureScaling, WIThPCA), Desicion Tree, Random_Forest, AdaBoost, Gradient_Boost, Prediction, SupportVectorMachine, Tensorflow)
+
+
