@@ -35,7 +35,7 @@ Child = daughter, son, stepdaughter, stepson
 Some children travelled only with a nanny, therefore parch=0 for them.
 
 ## Final Code: Copy_of_Final_Report.ipynb
-The code includes following parts:
+The code includes following parts:</br>
 Data Exploration: info() , describe(), distplot(), isnull(),sum(), drop(),fillna()
 Encoding Categorial Variable: replace(),loc(),mean(),var()
 Testing Set: removing missing values, Dropping Columns with significant missing data, Encoding Categorial Variable.
